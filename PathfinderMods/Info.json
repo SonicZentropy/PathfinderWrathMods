@@ -1,0 +1,9 @@
+﻿{
+  "Id": "PathfinderMods",
+  "DisplayName": "Zentropy Pathfinder Mod",
+  "Author": "username",
+  "ManagerVersion": "0.21.3",
+  "Requirements": [],
+  "AssemblyName": "PathfinderMods.dll",
+  "EntryMethod": "PathfinderMods.Main.Load"
+}
