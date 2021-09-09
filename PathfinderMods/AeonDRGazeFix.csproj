@@ -7,8 +7,8 @@
     <ProjectGuid>{7EBE8E74-54F1-45F0-9533-A1D000AC5602}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ZenMods</RootNamespace>
-    <AssemblyName>ZenMods</AssemblyName>
+    <RootNamespace>AeonDRGazeFix</RootNamespace>
+    <AssemblyName>AeonDRGazeFix</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

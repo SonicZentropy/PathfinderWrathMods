@@ -4,7 +4,7 @@ using UnityModManagerNet;
 using UnityEngine.UI;
 using HarmonyLib;
 
-namespace ZenMods
+namespace AeonDRGazeFix
 {
     static class Main
     {

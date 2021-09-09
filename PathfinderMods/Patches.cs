@@ -1,11 +1,12 @@
-﻿using System;
-using HarmonyLib;
-using Kingmaker.Corruption;
-using Kingmaker.UnitLogic;
+﻿using HarmonyLib;
+using Kingmaker.Blueprints;
+using Kingmaker.Blueprints.JsonSystem;
+using Kingmaker.Enums.Damage;
+using Kingmaker.UnitLogic.Buffs.Blueprints;
 
-namespace ZenMods
+namespace AeonDRGazeFix
 {
-    [HarmonyPatch(
+    /*[HarmonyPatch(
         typeof(EncumbranceHelper.CarryingCapacity), 
         "GetEncumbrance",
         //Specifies GetEncumberance that takes a float param instead of the other
@@ -33,9 +34,9 @@ namespace ZenMods
             __result = 0;
         }
 
-    }
+    }*/
 
-/*[HarmonyPatch(typeof(BlueprintsCache), "Init")]
+[HarmonyPatch(typeof(BlueprintsCache), "Init")]
     static class BlueprintsCache_Init_Patch
     {
         static bool loaded = false;
@@ -52,9 +53,9 @@ namespace ZenMods
             elmt.Alignment = DamageAlignment.Lawful;
 
             /*FileLog.Log($"Alignment on Aeon DR Gaze Buff is now: ");
-            FileLog.Log($"{elmt.Alignment}");#1#
+            FileLog.Log($"{elmt.Alignment}");*/
 
         }
-    }*/
+    }
 
 }

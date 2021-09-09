@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZenMods", "PathfinderMods\ZenMods.csproj", "{7EBE8E74-54F1-45F0-9533-A1D000AC5602}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AeonDRGazeFix", "PathfinderMods\AeonDRGazeFix.csproj", "{7EBE8E74-54F1-45F0-9533-A1D000AC5602}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

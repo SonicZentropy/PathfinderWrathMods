@@ -1,12 +1,12 @@
 ﻿{
-  "Id": "ZenMods",
-  "DisplayName": "ToyBox (a bag of tricks)",
+  "Id": "AeonDRGazeFix",
+  "DisplayName": "AeonDRGazeFix",
   "Author": "Narria",
   "Version": "1.2.11",
   "ManagerVersion": "0.23.0",
   "Requirements": [],
-  "AssemblyName": "ZenMods.dll",
-  "EntryMethod": "ZenMods.Main.Load",
+  "AssemblyName": "AeonDRGazeFix.dll",
+  "EntryMethod": "AeonDRGazeFix.Main.Load",
   "HomePage": "https://www.nexusmods.com/pathfinderwrathoftherighteous/mods/8?tab=posts&BH=0",
   "Repository": "https://github.com/cabarius/ToyBox/Repository.json"
 }
