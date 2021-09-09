@@ -1,12 +1,12 @@
 ﻿{
   "Id": "AeonDRGazeFix",
   "DisplayName": "AeonDRGazeFix",
-  "Author": "Narria",
-  "Version": "1.2.11",
+  "Author": "SonicZentropy",
+  "Version": "1.0.0",
   "ManagerVersion": "0.23.0",
   "Requirements": [],
   "AssemblyName": "AeonDRGazeFix.dll",
   "EntryMethod": "AeonDRGazeFix.Main.Load",
-  "HomePage": "https://www.nexusmods.com/pathfinderwrathoftherighteous/mods/8?tab=posts&BH=0",
-  "Repository": "https://github.com/cabarius/ToyBox/Repository.json"
+  "HomePage": "https://www.nexusmods.com/pathfinderwrathoftherighteous/mods/55?tab=posts&BH=0",
+  "Repository": "https://github.com/SonicZentropy/PathfinderWrathMods/Repository.json"
 }
