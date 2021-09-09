@@ -4,19 +4,19 @@ using UnityModManagerNet;
 using UnityEngine.UI;
 using HarmonyLib;
 
-namespace PathfinderMods
+namespace ZenMods
 {
     static class Main
     {
         public static bool Enabled;
-        public static Settings Settings;
+       
 
         static bool Load(UnityModManager.ModEntry modEntry)
         {
-            Settings = Settings.Load<Settings>(modEntry);
+       
             modEntry.OnToggle = OnToggle;
-            modEntry.OnGUI = OnGUI;
-            modEntry.OnSaveGUI = OnSaveGUI;
+            //modEntry.OnGUI = OnGUI;
+            //modEntry.OnSaveGUI = OnSaveGUI;
             var harmony = new Harmony(modEntry.Info.Id);
             harmony.PatchAll(Assembly.GetExecutingAssembly());
             return true;
@@ -28,7 +28,7 @@ namespace PathfinderMods
             return true;
         }
 
-        static void OnGUI(UnityModManager.ModEntry modEntry)
+        /*static void OnGUI(UnityModManager.ModEntry modEntry)
         {
             GUILayout.BeginHorizontal();
             GUILayout.Label("MyFloatOption", GUILayout.ExpandWidth(false));
@@ -53,6 +53,6 @@ namespace PathfinderMods
         static void OnSaveGUI(UnityModManager.ModEntry modEntry)
         {
             Settings.Save(modEntry);
-        }
+        }*/
     }
 }

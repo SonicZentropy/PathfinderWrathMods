@@ -1,9 +1,12 @@
 ﻿{
-  "Id": "PathfinderMods",
-  "DisplayName": "Zentropy Pathfinder Mod",
-  "Author": "username",
-  "ManagerVersion": "0.21.3",
+  "Id": "ZenMods",
+  "DisplayName": "ToyBox (a bag of tricks)",
+  "Author": "Narria",
+  "Version": "1.2.11",
+  "ManagerVersion": "0.23.0",
   "Requirements": [],
-  "AssemblyName": "PathfinderMods.dll",
-  "EntryMethod": "PathfinderMods.Main.Load"
+  "AssemblyName": "ZenMods.dll",
+  "EntryMethod": "ZenMods.Main.Load",
+  "HomePage": "https://www.nexusmods.com/pathfinderwrathoftherighteous/mods/8?tab=posts&BH=0",
+  "Repository": "https://github.com/cabarius/ToyBox/Repository.json"
 }
